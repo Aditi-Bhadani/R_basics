@@ -1,0 +1,10 @@
+# WAP to print sum of first 8 numbers
+
+sum <- 0
+
+for (x in 1:8) 
+{
+  sum <- sum + x
+}
+
+print (sum)
