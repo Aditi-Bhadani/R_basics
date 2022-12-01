@@ -1,0 +1,41 @@
+# WAP to find the sequence, mean and sum of given numbers
+
+{
+  print("For printing the sequence:")
+  one=readline("Enter the 1st no : ");
+  a=as.integer(one);
+  two=readline("Enter the 2nd no : ");
+  b=as.integer(two);
+  
+  for (i in a:b)
+  {
+      print(i)
+  }
+
+  print("For printing the mean:")
+  one=readline("Enter the 1st no : ");
+  a=as.integer(one);
+  two=readline("Enter the 2nd no : ");
+  b=as.integer(two);
+  
+  sum=0
+  for (i in a:b)
+  {
+      sum=sum+a
+      result=sum/(b-a)
+  }
+  print(paste(result,"is the mean."))
+  
+  print("For printing the sum:")
+  one=readline("Enter the 1st no : ");
+  a=as.integer(one);
+  two=readline("Enter the 2nd no : ");
+  b=as.integer(two);
+  
+  sum=0
+  for (i in a:b)
+  {
+      sum=sum+a
+  }
+  print(paste(sum,"is the sum."))
+}
