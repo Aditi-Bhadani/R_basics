@@ -1,0 +1,13 @@
+# WAP to print sum of first n numbers (user input)
+
+{
+  no=readline("Enter a no : ");
+  no1=as.integer(no);
+  sum=0
+  
+  for (x in 1:no1)
+  {
+   sum=sum+x
+  }
+  print (sum)
+}
