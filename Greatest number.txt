@@ -1,0 +1,28 @@
+# WAP to find the greatest no. among 2,3 and 4 nos.
+{
+  one=readline("Enter the 1st no : ");
+  a=as.integer(one);
+  two=readline("Enter the 2nd no : ");
+  b=as.integer(two);
+  three=readline("Enter the 3rd no : ");
+  c=as.integer(three);
+  four=readline("Enter the 4th no : ");
+  d=as.integer(four);
+  
+  if (a > b & a > c & a > d)
+  {
+      print(paste(one,"is the greatest no."))
+  }
+  else if (b > a & b > c & b > d)
+  {
+      print(paste(two,"is the greatest no."))
+  }
+  else if (c > a & c > b & c > d)
+  {
+      print(paste(three,"is the greatest no."))
+  }
+  else
+  {
+      print(paste(four,"is the greatest no."))
+  }
+}
