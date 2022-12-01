@@ -1,0 +1,24 @@
+# WAP to ask the user to enter the scored marks and show results
+
+{
+  score=readline("Enter the score : ");
+  value=as.integer(score);
+  
+  if (value >= 90)
+  {
+      print("Excellent !")
+  }
+  else if (value >= 60 & value < 90)
+  {
+      print("Average.")
+  }
+  else if (value >= 45 & value < 60)
+  {
+      print("Pass.")
+  }
+  else
+  {
+      print("Fail")
+  }
+  print(paste(score,"is total marks"))
+}
