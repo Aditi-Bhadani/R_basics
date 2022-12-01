@@ -1,0 +1,13 @@
+#WAP to find a no is odd or even
+
+{
+no <- as.integer(readline(prompt = "enter a num: "))
+if ( no %%2==0)
+  {
+    print(paste(no, "is even"))
+  }
+else
+  {
+    print(paste(no, "is odd"))
+  }
+}
